@@ -5,17 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "generate": "npx prisma generate"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.1.7",
     "prisma": "^4.6.1",
+    "prisma-erd-generator": "^1.2.3",
     "tsx": "^3.12.0",
     "typescript": "^4.8.4"
   },
   "dependencies": {
+    "@fastify/cors": "^8.2.0",
     "@prisma/client": "^4.6.1",
     "fastify": "^4.9.2"
   }
