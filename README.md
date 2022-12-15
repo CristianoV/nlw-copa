@@ -33,3 +33,9 @@ Projeto Nlw Copa
   * __next__ 
   * __axios__
   * __Native base__
+
+
+# Instruções da aplicação
+  - [COMANDOS Server](https://github.com/CristianoV/nlw-copa/blob/master/Server/README.md)
+  - [COMANDOS Web](https://github.com/CristianoV/nlw-copa/blob/master/web/README.md)
+  - [COMANDOS Mobile](https://github.com/CristianoV/nlw-copa/blob/master/mobile/README.md)
